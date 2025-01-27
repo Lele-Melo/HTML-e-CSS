@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Codigo de lele</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas e musica </h1>
+    <hr>
+    <p> Primeiramente iremos mudar a altura, largura e resolução da imagem para dispositivos diferentes, como: celular(pequena), notebook(media), TV(grande)</p>
+    <p> pequena: 300X300 resolução 80,000</p>
+    <p> media: 700X700 resolução 80,000</p>
+    <p> grande: 1000X1000 resolução 80,000</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img_m.png" type="image/png">
+       <img src="imagens/img_g.png" alt="imagens flexivel"> 
+       
+    </picture>
+    <br>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagem_p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/paisagem_m.jpg" type="image/jpg">
+       <img src="imagens/paisagem_g.jpg" alt="imagem grande">
+    </picture>
+    <h2>Colocando midia</h2>
+    <p></p>
+</body>
+</html>

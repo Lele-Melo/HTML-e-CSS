@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codigo de lele</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a
+        {
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            
+            
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:hover
+        {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active
+        {
+            color: blue;
+        }
+        /*pseudo elementos*/
+        .especial
+        {
+            background-color: rgb(198, 248, 248);
+        }
+       .especial::after
+        {
+            content: ' link ';
+            color: rgba(0, 0, 0, 0.322);
+            text-decoration: none;
+            font-weight: normal;
+        }
+        .especial::before
+        {
+            content: '*';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul type="circle">
+        <li><a href="https://www.youtube.com/" target="_blank" rel="external" class="especial">link do youtube</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="ex,">link do instagram</a></li>
+    </ul>
+    
+    
+</body>
+</html>
