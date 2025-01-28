@@ -1,0 +1,60 @@
+@charset "UPT-8";
+body
+{
+    background-image: linear-gradient(to top, white, pink);
+    background-attachment: fixed;
+}
+.quadrada
+{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+}
+#q1
+{
+    background-image: url(https://cdnm.westwing.com.br/glossary/uploads/br/2024/01/30231622/tipos-de-flores-nomes-fonte-usnplash.jpg);
+    background-size: 300px 300px;
+}
+#q2
+{
+    background-image: url('img/pattern001.png')
+   
+    
+}
+#q3
+{
+    background-image: url('img/pattern003.png');
+    background-repeat: repeat-x;
+}
+#q4
+{
+    background-image: url('img/pattern003.png');
+    background-repeat: no-repeat;
+}
+#q5
+{
+    background-image: url('img/pattern003.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#q6
+{
+    background-image: url('img/pattern003.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+#q7
+{
+    background-image: url('img/pattern003.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#q8
+{
+    background-image: url('img/pattern003.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
