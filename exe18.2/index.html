@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codigo de lele</title>
+    <style>
+        table.simples
+        {
+            width: 400px;
+            height: 400px;
+           border-collapse: collapse; /* estrutura da tebela*/
+
+        }
+        td.simples2
+        {
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 2px solid black;
+            text-align: center;
+            vertical-align: middle; /*alinhamento vertical*/
+        }
+        
+        table
+        {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+            margin: auto;
+        }
+        thead > tr > th /* colar o cabeçalho*/
+        {
+            position: sticky;
+            top: -1px;
+            color: white;
+            background-color: gray;
+        }
+        caption
+        {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        td,th
+        {
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 2px solid black;
+            
+        }
+        tbody > tr:nth-child(odd)/* odd impar ou 2n-1 /  even par ou 2n */
+        {
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(even)
+        {
+            background-color: rgb(207, 207, 185);
+        }
+        td.alinhado
+        {
+            text-align: right;
+        }
+        thead,tfoot
+        {
+            color: white;
+            background-color: gray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+    Table = tabela
+    Table row = linha de tabela 
+    Table header = cabeçalho de tabela
+    Table data = dado de tabela
+    -->
+    <table class="simples">
+        <tr>
+            <td class="simples2">A1</td>
+            <td class="simples2">B1</td>
+            <td class="simples2">C1</td>
+        </tr>
+        <tr>
+            <td class="simples2">A2</td>
+            <td class="simples2">B2</td>
+            <td class="simples2">C2</td>
+        </tr>
+        <tr>
+            <td class="simples2">A3</td>
+            <td class="simples2">B3</td>
+            <td class="simples2">C3</td>
+        </tr>
+        <tr>
+            <td class="simples2">A4</td>
+            <td class="simples2">B4</td>
+            <td class="simples2">C4</td>
+        </tr>
+    </table>
+
+    <h1>Tabelas grandes</h1>
+    <!--
+    Table
+    Caption
+    Thead
+    Tbody
+    Tfoot
+    -->
+    
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">populacao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao paulo</td>
+                <td class="alinhado">45 973 190</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="alinhado">21 322 692</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="alinhado">17 219 679</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="alinhado">14 850 513</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes:</td>
+                <td class="alinhado">0000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

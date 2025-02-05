@@ -1,0 +1,24 @@
+@charset "UPT-8";
+body
+{
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/id/853555360/pt/vetorial/spring-green-nature-background-with-white-chamomiles.jpg?s=612x612&w=0&k=20&c=xan1XvqYZgBC9vl-dBGdaEz3VPbObD9lweeLqqJwnJ4=);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*contain*/
+    /*backgroud: color image position repeat [size] attachment*/
+    
+    
+}
+main
+{
+    background-color: white;
+    color: black;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
